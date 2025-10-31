@@ -1,0 +1,30 @@
+import java.sql.*;
+public class bus {
+    private int busno;
+    private boolean Ac;
+    private int capacity;
+
+    bus(int no,boolean ac,int cap){
+        this.busno=no;
+        this.Ac=ac;
+        this.capacity=cap;
+    }
+    public int getCapacity(){
+        return capacity;
+    }
+    public void setCapacity(int cap){
+       capacity=cap;
+    }
+    public boolean getAC(){
+        return Ac;
+    }
+    public void setAC(boolean ac){
+        Ac=ac;
+    }
+    public int getBusno(){
+        return busno;
+    }
+    public void displaybusinfo() throws Exception{
+        System.out.println("Bus no:" + busno + " AC:" + Ac + " Total capacity:" +capacity);
+    }
+}
