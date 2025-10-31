@@ -1,1 +1,1 @@
-# jdbc-project
+A simple Java-based Bus Reservation System that allows users to view available buses, check seat capacity, and book tickets. This project demonstrates how to connect Java applications with a MySQL database using JDBC.
