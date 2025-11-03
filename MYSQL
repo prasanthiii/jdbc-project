@@ -1,0 +1,16 @@
+create database busbooking;
+use busbooking;
+create table buses(
+id int primary key,
+ac boolean,
+capacity int);
+insert into buses values(1,1,2);
+insert into buses values(2,1,34);
+insert into buses values(3,0,62);
+select * from buses;
+create table booking(
+    passengername VARCHAR(100) NOT NULL,
+    busno INT NOT NULL,
+    date DATE NOT NULL
+);
+select * from booking;
